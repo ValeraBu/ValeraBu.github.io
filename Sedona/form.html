@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Городок Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <div class="shadow container">
+    <header class="main-header clearfix">
+      <nav class="main-navigation">
+        <ul>
+          <li>
+            <a href="#">Информация</a>
+          </li>
+          <li>
+            <a href="#">Фото и видео</a>
+          </li>
+          <li>
+            <a class="logo-sedona" href="index.html">
+              <img src="img/logo.png" width="138" height="70" alt="sedona">
+            </a>
+          </li>
+          <li>
+            <a href="#">Карта штата</a>
+          </li>
+          <li>
+            <a href="catalog.html">Гостиницы</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="form-inner">
+      <div class="form-item-inner">
+        <div class="search-hotel-inner">Поиск гостиницы в Седоне</div>
+        <form class="search-form-inner" action="https://htmlacademy.ru" method="get">
+          <div class="arrival-date-inner">
+            <label for="arrival">Дата заезда:</label>
+            <input id="arrival" type="text" name="date" value="24 апреля 2016" required>
+          </div>
+          <div class="departure-inner">
+            <label for="departure-date">Дата выезда:</label>
+            <input id="departure-date" type="text" name="date" value="4 июля 2016" required>
+          </div>
+          <div class="selection-inner">
+            <div class="selection-adult-inner">
+              <label for="adult">Взрослые:</label>
+              <div class="selection-button1"><span class="minus-inner"></span><input id="adult" type="text" value="2" required><span class="plus-inner"></span></div>
+            </div>
+            <div class="selection-child-inner">
+              <label for="child">Дети:</label>
+              <div class="selection-button2"><span class="minus2-inner"></span><input id="child" type="text" value="0" required><span class="plus2-inner"></span></div>
+            </div>
+          </div>
+          <div class="btn-search">
+            <input type="submit" value="Найти">
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer class="main-footer-form clearfix">
+     <section class="footer-contacts">
+       <a href="#">#VisitSedona</a>
+     </section>
+     <section class="footer-social">
+       <a class="social-btn social-btn-tw" href="#">Твиттер</a>
+       <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+       <a class="social-btn social-btn-yt" href="#">YouTube</a>
+     </section>
+     <section class="footer-copyright">
+       <p>Website by</p>
+       <a class="btn-html" href="https://htmlacademy.ru"><img src="htmlacademy.png" alt="htmlacademy"></a>
+     </section>
+  </footer>
+</div>
+</body>
+</html>
