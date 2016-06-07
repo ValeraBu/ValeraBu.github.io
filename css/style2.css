@@ -18,10 +18,16 @@ body {
   background-color: #ffffff;
 }
 
-header {
+.main-header {
   height: 699px;
   background: #367eb9 url("../img/background.png") no-repeat;
-  padding-bottom: 70px;
+  margin-bottom: 70px;
+}
+
+.header-about {
+  height: 699px;
+  background: #28373e url("../img/intro-about.png") no-repeat;
+  margin-bottom: 164px;
 }
 
 .logo img {
@@ -32,6 +38,17 @@ header {
 .menu {
   float: right;
   padding-right: 45px;
+}
+
+.inner-main p {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: lighter;
+  color: rgba(2, 23,37, 0,7);
+  text-align: center;
+  width: 772px;
+  margin: 0 auto;
+  padding-bottom: 156px;
 }
 
 h1 {
@@ -280,6 +297,57 @@ header a {
   height: 390px;
 }
 
+.services-post{
+  width: 1281px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+}
+
+.services-post img {
+  width: 641px;
+  height: 450px;
+}
+
+.text-post{
+  width: 320px;
+}
+
+.text-post h3{
+  font-size: 45px;
+  font-weight: bold;
+  color: #505d68;
+  padding-left: 38px;
+}
+
+.text-post p {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: lighter;
+  color: #505d68;
+  width: 238px;
+  text-align: left;
+}
+
+.list{
+  padding-top: 102px;
+  width: 320px;
+  line-height: 25px;
+}
+
+.list ul {
+  list-style: none;
+}
+
+.list li {
+  font-size: 18px;
+  font-weight: lighter;
+  color: #505d68;
+}
+
 .text-write {
   width: 385px;
 }
@@ -357,10 +425,11 @@ header a {
   margin: 0 auto;
 }
 
-.map {
+.map-item {
   display: block;
   width: 767px;
   height: 295px;
+  background: url("../img/map-img.png") no-repeat;
   margin: 0 auto;
   padding-bottom: 39px;
 }
@@ -379,6 +448,7 @@ header a {
   justify-content: center;
   width: 768px;
   margin: 0 auto;
+  padding-bottom: 30px;
 }
 
 .location {
