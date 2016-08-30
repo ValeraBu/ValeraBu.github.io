@@ -10,8 +10,8 @@ body {
   height: 100%;
 }
 
-.container{
-  width: 1280px;
+ .container{
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -56,7 +56,7 @@ main {
 }
 
 .about-item {
-  width: 600px;
+  max-width: 600px;
 }
 
 .work h3 {
@@ -76,6 +76,8 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-content: space-between;
+  width: auto;
 }
 
 h3 {
