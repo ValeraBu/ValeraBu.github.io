@@ -520,7 +520,6 @@ header a {
 }
 
 footer.container {
-  width: 100%;
   background-color: #eeeeee;
   display: flex;
   flex-direction: row;
