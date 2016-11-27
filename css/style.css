@@ -121,3 +121,34 @@ footer p {
   color: #ffffff;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .about-img {
+    padding: 0;
+   }
+
+   h3 {
+    text-align: center;
+   }
+
+   .about-me {
+     padding: 0 20px;
+     text-align: justify;
+   }
+
+   .work-img img {
+     padding-bottom: 40px;
+     display: block;
+     margin-bottom: 10px;
+   }
+
+   .work img {
+     margin-right: 8px;
+   }
+}
+
+@media screen and (max-width: 320px) {
+  .work img {
+    margin-right: 0px;
+  }
+}
