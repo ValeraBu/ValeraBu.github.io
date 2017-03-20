@@ -23,6 +23,17 @@ html{
   height: 80px;
 }
 
+.number a,
+.email a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.number a:hover,
+.email a:hover {
+  text-decoration: underline;
+} 
+
 body {
   font-size: 14px;
   line-height: 32px;
@@ -36,8 +47,9 @@ body {
 }
 
  .container{
-  width: 100%;
+  max-width: 1400px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 header {
@@ -47,6 +59,7 @@ header {
   padding: 0;
   background-color: #000000;
   margin-bottom: 50px;
+  padding-bottom: 15px;
 }
 
 h1 {
@@ -86,14 +99,17 @@ main {
 
 .work h3 {
   text-align: center;
+  padding-bottom: 40px;
 }
 
 .work img {
   margin-right: 60px;
+  filter: grayscale(100%);
 }
 
-.work a img:hover {
-  box-shadow: 0 0 1px 1px black;
+.work img:hover {
+  /*box-shadow: 0 0 1px 1px black;*/
+  filter: none;
 }
 
 .work-img {
