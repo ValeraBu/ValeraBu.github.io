@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv=Content-Type content="text/html;charset=UTF-8">
+	<title>Watch</title>
+	<meta name="keywords" content="keywords">
+	<meta name="description" content="description ">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<script src="js/modernizr-custom.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/main.min.css">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/ico">
+</head>
+
+<body>
+	<!-- header -->
+	<header class="main-header clearfix">
+		<!-- logo -->
+		<div class="main-logo">
+			<a href="index.html">
+				<img class="header-logo" src="img/logo-black.svg" alt="" />
+			</a>
+		</div>
+		<div class="container">
+			<!-- top -->
+			<div class="header__top clearfix">
+				<!-- menu -->
+				<button id="button-menu" class="button-menu" type="button">меню</button>
+				<!-- search -->
+				<button id="button-search" class="button-search" type="button">поиск</button>
+				<div class="mobile-search">
+					<div class="mobile-search_header">
+						<a href="#" class="close-menu">закрыть</a>
+						<span class="search-title">Поиск по сайту</span>
+					</div>
+					<form id="form-search_mobile" class="form form-search_mobile">
+						<input id="search-site" type="search" class="form-input form-input_search-mobile" placeholder="Введите ваш запрос">
+						<button type="submit" class="btn-search_mobile"><span>Искать</span><i class="icon icon-search-mobile"></i>
+						</button>
+					</form>
+				</div>
+				<!-- form -->
+				<form id="form-search" class="form form_search form_search_header">
+					<input id="search-site" type="search" class="form-input form-input_search" placeholder="Поиск по сайту">
+					<button type="search" class="btn-search"> <i class="icon icon-search"></i>
+					</button>
+				</form>
+				<!-- top -->
+				<div class="header__top_right">
+					<div class="header__top_right-item header__top_phone-block">
+						<a class="phone-number" href="tel:8(812)702-77-82">+7 (812) 702-77-82</a>
+						<a class="phone-number" href="tel:8(812)702-77-82">+7 (812) 999-12-88</a>
+						<button id="button-phone" class="button-phone" type="button">Телефон</button>
+					</div>
+
+					<!-- modal-phone -->
+					<div class="modal-phone">
+						<div class="modal-phone_header">
+							<a href="#" class="close-menu">закрыть</a>
+							<span class="phone-title">Наши телефоны</span>
+						</div>
+						<a class="phone-number" href="tel:8(812)702-77-82">+7 (812) 702-77-82</a>
+						<a class="phone-number" href="tel:8(812)999-12-88">+7 (812) 999-12-88</a>
+					</div>
+
+					<div class="header__top_right-item header__top_select-currency">
+						<i class="icon icon-currency"></i>
+						<ul class="currency-popup">
+							<li class="currency-popup__title active"><a href="#">Р</a>
+							</li>
+							<li class="currency-popup__title"><a href="#">$</a>
+							</li>
+							<li class="currency-popup__title"><a href="#">€</a>
+							</li>
+						</ul>
+					</div>
+					<div class="header__top_right-item header__top_basket">
+						<i class="icon icon-basket"></i>
+						<span class="basket-circle">1</span>
+						<div class="basket-popup">
+							<div class="basket-popup-header">
+								В вашей корзине <span class="basket-popup-header__value">0 товаров</span>
+							</div>
+							<div class="basket-popup-body">
+								<ul>
+									<li>0р</li>
+									<li>0$</li>
+									<li>0€</li>
+								</ul>
+							</div>
+							<div class="basket-popup-footer">
+								<a href="#" class="btn">Перейти в корзину</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- midle -->
+			<div class="header__middle clearfix">
+				<!-- header -->
+				<div class="header-menu">
+					<a href="#" class="close-menu">закрыть</a>
+				</div>
+				<!-- left menu -->
+				<nav class="header__middle_nav header__middle_nav-left">
+					<ul>
+						<li><a href="about.html">О компании</a>
+						</li>
+						<li><a href="services.html">Часовая мастерская</a>
+						</li>
+						<li><a href="news.html">Новости</a>
+						</li>
+						<li><a href="articles.html">Статьи</a>
+						</li>
+					</ul>
+				</nav>
+				<!-- right menu -->
+				<nav class="header__middle_nav header__middle_nav-right">
+					<ul>
+						<li><a href="faq.html">FAQ</a>
+						</li>
+						<li><a href="dictionary.html">Словарь терминов</a>
+						</li>
+						<li><a href="delivery.html">Доставка</a>
+						</li>
+						<li><a href="contacts.html">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<!-- bottom -->
+			<div class="header__bottom">
+				<nav class="header__bottom_nav">
+					<ul>
+						<li><a href="clock.html">Часы</a>
+						</li>
+						<li><a class="active" href="/">Ювелирные изделия</a>
+						</li>
+						<li><a href="accessories.html">Аксессуары</a>
+						</li>
+						<li><a href="deals.html">Спецпредложения</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<main class="wrapper catalog-page container">
+		<section class="breadcrumbs">
+			<ul class="main-breadcrumbs">
+				<li><a href="#"><span>Главная</span></a>
+				</li>
+				<li><a class="active" href="#"><span>Ювелирные изделия</span></a>
+				</li>
+			</ul>
+		</section>
+		<div class="main-title">
+			<div class="main-title-block"><span>Ювелирные изделия</span>
+			</div>
+			<button id="catalog-filter" class="catalog-filter" type="button">
+				<img src="img/catalog-menu.png" />
+			</button>
+			<div class="mini-filter">
+				<div class="select-price dropdown">
+					<button class="select-price-title"><span>Цена</span>
+						<img src="img/price-icon.png" alt="" /><i class="icon icon-price-arrows"></i>
+					</button>
+					<ul class="select-price_list">
+						<li class="active">Сначала дорогие модели</li>
+						<li>Сначала недорогие модели</li>
+					</ul>
+				</div>
+				<div class="select-number">
+					<p class="select-number-title">Показывать по:</p>
+					<img src="img/view-icon.png" alt="" />
+					<select class="select-number_item" name="select-number_item" id="select-number_item">
+						<option selected="selected">6</option>
+						<option>9</option>
+						<option>12</option>
+						<option>15</option>
+						<option>Все</option>
+					</select>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="catalog-page__main clearfix">
+			<div class="left-sidebar">
+				<form method="post" id="filterForm" class="catalog-form">
+					<div class="catalog-menu">
+						<a href="#" class="close-menu">закрыть</a>
+					</div>
+					<div class="catalog-form__item">
+						<input id="search-catalog" type="search" class="catalog-form-input catalog-form-input_search-catalog" placeholder="Что ищем">
+						<button type="search" class="catalog-btn-search"> <i class="icon icon-catalog-search"></i>
+						</button>
+					</div>
+					<span class="underline"></span>
+					<div class="catalog-form__item">
+						<div class="catalog-form__item-row">
+							<input type="checkbox" id="man-good" name="kind-goods" class="checkbox-input" checked>
+							<label for="man-good" class="checkbox-label">Браслеты</label>
+						</div>
+						<div class="catalog-form__item-row">
+							<input type="checkbox" id="woman-good" name="kind-goods" class="checkbox-input" checked>
+							<label for="woman-good" class="checkbox-label">Колье</label>
+						</div>
+						<div class="catalog-form__item-row">
+							<input type="checkbox" id="woman-good" name="kind-goods" class="checkbox-input" checked>
+							<label for="woman-good" class="checkbox-label">Кольца</label>
+						</div>
+						<div class="catalog-form__item-row">
+							<input type="checkbox" id="woman-good" name="kind-goods" class="checkbox-input" checked>
+							<label for="woman-good" class="checkbox-label">Кулоны</label>
+						</div>
+						<div class="catalog-form__item-row">
+							<input type="checkbox" id="woman-good" name="kind-goods" class="checkbox-input" checked>
+							<label for="woman-good" class="checkbox-label">Серьги</label>
+						</div>
+						<div class="catalog-form__item-row">
+							<input type="checkbox" id="woman-good" name="kind-goods" class="checkbox-input" checked>
+							<label for="woman-good" class="checkbox-label">Подвески</label>
+						</div>
+						<div class="catalog-form__item-row">
+							<input type="checkbox" id="woman-good" name="kind-goods" class="checkbox-input" checked>
+							<label for="woman-good" class="checkbox-label">Броши</label>
+						</div>
+						<div class="catalog-form__item-row">
+							<input type="checkbox" id="woman-good" name="kind-goods" class="checkbox-input" checked>
+							<label for="woman-good" class="checkbox-label">Запонки</label>
+						</div>
+						<div class="catalog-form__item-row">
+							<input type="checkbox" id="woman-good" name="kind-goods" class="checkbox-input" checked>
+							<label for="woman-good" class="checkbox-label">Кольца для помолвки</label>
+						</div>
+					</div>
+					<span class="underline"></span>
+					<div class="catalog-form__item">
+						<p class="catalog-form_title">Цена</p>
+						<div class="catalog-form__item-row">
+							<p class="catalog-form_label">Валюта</p>
+							<select class="catalog-form_select" name="catalog-form_select" id="catalog-form_select">
+								<option selected="selected">рубли</option>
+								<option>доллары</option>
+								<option>евро</option>
+							</select>
+						</div>
+						<div class="change-price">
+							<div class="catalog-form__item-row">
+								<p class="catalog-form_label">от</p>
+								<input type="text" class="text-price" id="text-price" value="000 000">
+							</div>
+							<div class="catalog-form__item-row">
+								<p class="catalog-form_label">до</p>
+								<input type="text" class="text-price" id="text-price" value="34 234 000">
+							</div>
+						</div>
+						<div class="catalog-form__item-row special-goods">
+							<input type="checkbox" id="special-check" class="checkbox-input" checked>
+							<label for="special-check" class="checkbox-label">Специальные предложения</label>
+						</div>
+					</div>
+					<span class="underline"></span>
+					<div class="catalog-form__item">
+						<div class="catalog-form__item-row">
+							<input type="radio" id="availability-radio" class="radio-input" name="delivery">
+							<label for="availability-radio" class="radio-label">В наличии</label>
+						</div>
+						<div class="catalog-form__item-row">
+							<input type="radio" id="order-radio" class="radio-input" name="delivery" checked>
+							<label for="order-radio" class="radio-label">Под заказ</label>
+						</div>
+					</div>
+					<span class="underline"></span>
+					<div class="catalog-form__item catalog-form__item_brands">
+						<p class="catalog-form_title">Бренд:</p>
+						<div class="catalog-form__item-row">
+							<input type="checkbox" id="Boucheron" name="brand" class="checkbox-input" checked>
+							<label for="Boucheron"><a class="brand-link active" href="#">Boucheron</a>
+							</label>
+						</div>
+						<div class="catalog-form__item-row">
+							<input type="checkbox" id="Bvlgari" name="brand" class="checkbox-input">
+							<label for="Bvlgari"><a class="brand-link" href="#">Bvlgari</a>
+							</label>
+						</div>
+						<div class="catalog-form__item-row">
+							<input type="checkbox" id="Carrerra y Carrera" name="brand" class="checkbox-input">
+							<label for="Carrerra y Carrera"><a class="brand-link" href="#">Carrerra y Carrera</a>
+							</label>
+						</div>
+						<div class="catalog-form__item-row">
+							<input type="checkbox" id="Cartier" name="brand" class="checkbox-input">
+							<label for="Cartier"><a class="brand-link" href="#">Cartier</a>
+							</label>
+						</div>
+						<div class="catalog-form__item-row">
+							<input type="checkbox" id="Graff" name="brand" class="checkbox-input">
+							<label for="Graff"><a class="brand-link" href="#">Graff</a>
+							</label>
+						</div>
+						<div class="catalog-form__item-row">
+							<input type="checkbox" id="Chopard" name="brand" class="checkbox-input">
+							<label for="Chopard"><a class="brand-link" href="#">Chopard</a>
+							</label>
+						</div>
+						<div class="catalog-form__item-row">
+							<input type="checkbox" id="Tiffany" name="brand" class="checkbox-input">
+							<label for="Tiffany"><a class="brand-link" href="#">Tiffany</a>
+							</label>
+						</div>
+						<div class="catalog-form__item-row">
+							<input type="checkbox" id="Pasquale Bruni" name="brand" class="checkbox-input">
+							<label for="Pasquale Bruni"><a class="brand-link" href="#">Pasquale Bruni</a>
+							</label>
+						</div>
+						<div class="catalog-form__item-row">
+							<input type="checkbox" id="another" name="brand" class="checkbox-input">
+							<label for="another"><a class="brand-link" href="#">Другие бренды</a>
+							</label>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<div class="catalog-content">
+				<div class="top-filter">
+					<ul class="top-filter__item">
+						<li><a class="select-filter select-kind-goods" href="#">Браслеты<i class="icon icon-close"></i></a>
+						</li>
+						<li><a class="select-filter select-kind-goods" href="#">Колье<i class="icon icon-close"></i></a>
+						</li>
+						<li><a class="select-filter select-kind-goods" href="#">Кольца<i class="icon icon-close"></i></a>
+						</li>
+						<li><a class="select-filter select-kind-goods" href="#">Кулоны<i class="icon icon-close"></i></a>
+						</li>
+						<li><a class="select-filter select-kind-goods" href="#">Серьги<i class="icon icon-close"></i></a>
+						</li>
+						<li><a class="select-filter select-kind-goods" href="#">Подвески<i class="icon icon-close"></i></a>
+						</li>
+						<li><a class="select-filter select-kind-goods" href="#">Броши<i class="icon icon-close"></i></a>
+						</li>
+						<li><a class="select-filter select-kind-goods" href="#">Запонки<i class="icon icon-close"></i></a>
+						</li>
+						<li><a class="select-filter select-kind-goods" href="#">Кольца для помолвки<i class="icon icon-close"></i></a>
+						</li>
+						<li><a class="select-filter select-price" href="#">от 0 до 34 234 000 рублей<i class="icon icon-close"></i></a>
+						</li>
+						<li><a class="select-filter select-delivery" href="#">под заказ<i class="icon icon-close"></i></a>
+						</li>
+						<li><a class="select-filter select-sex" href="#">мужские<i class="icon icon-close"></i></a>
+						</li>
+						<li><a class="select-filter select-sex" href="#">женские<i class="icon icon-close"></i></a>
+						</li>
+						<li><a class="select-filter select-brand" href="#">Boucheron<i class="icon icon-close"></i></a>
+						</li>
+					</ul>
+					<a class="close-all"><span>Сбросить все</span><i class="icon icon-close"></i></a>
+				</div>
+				<div class="products-catalog">
+					<div class="product-card clearfix">
+						<a href="jewelry-inner.html">
+							<div class="product-card__img">
+								<img src="img/good1.png" alt="" />
+							</div>
+						</a>
+						<div class="product-card__about">
+							<p class="product-card_title"><a href="jewerly-inner.html">Серьги Boucheron Артикул: OR140802</a>
+							</p>
+							<p class="product-card_text">Серьги из белого золото 750 пробы. Вставки - бриллианты.<span class="product-card_text_substrate"></span>
+							</p>
+							<p class="product-card_time-use">В наличии</p>
+							<div class="product-card_price-block">
+								<p class="product-card_old-price"></p>
+								<p class="product-card_price">238 400 Р</p>
+								<a class="product-card_buy products-modal_btn" href="#">Купить</a>
+							</div>
+						</div>
+					</div>
+					<div class="product-card clearfix">
+						<a href="jewelry-inner.html">
+							<div class="product-card__img">
+								<img src="img/good2.png" alt="" />
+							</div>
+						</a>
+						<div class="product-card__about">
+							<p class="product-card_title"><a href="jewerly-inner.html">Подвеска Boucheron Happy Diamonds</a>
+							</p>
+							<p class="product-card_text">Подвеска из белого золота 750 пробы в форме лабиринта с бриллиантами<span class="product-card_text_substrate"></span>
+							</p>
+							<p class="product-card_time-use">Под заказ</p>
+							<div class="product-card_price-block">
+								<p class="product-card_old-price"></p>
+								<p class="product-card_price">408 600 Р</p>
+								<a class="product-card_buy products-modal_btn" href="#">Купить</a>
+							</div>
+						</div>
+					</div>
+					<div class="product-card clearfix">
+						<a href="jewelry-inner.html">
+							<div class="product-card__img">
+								<img src="img/product.jpg" alt="" />
+							</div>
+						</a>
+						<div class="product-card__about">
+							<p class="product-card_title"><a href="jewerly-inner.html">Подвеска Boucheron</a>
+							</p>
+							<p class="product-card_text">Подвеска из желтого золота 750 пробы в форме креста с бриллиантами<span class="product-card_text_substrate"></span>
+							</p>
+							<p class="product-card_time-use">В наличии</p>
+							<div class="product-card_price-block">
+								<p class="product-card_old-price">270 400 P</p>
+								<p class="product-card_price">250 000 Р</p>
+								<a class="product-card_buy products-modal_btn" href="#">Купить</a>
+							</div>
+						</div>
+					</div>
+					<div class="product-card clearfix">
+						<a href="jewelry-inner.html">
+							<div class="product-card__img">
+								<img src="img/good4.png" alt="" />
+							</div>
+						</a>
+						<div class="product-card__about">
+							<p class="product-card_title"><a href="jewerly-inner.html">Кольцо Boucheron Happy Diamonds</a>
+							</p>
+							<p class="product-card_text">Кольцо из белого золота 750 пробы с изумрудами и бриллиантом<span class="product-card_text_substrate"></span>
+							</p>
+							<p class="product-card_time-use">В наличии</p>
+							<div class="product-card_price-block">
+								<p class="product-card_old-price"></p>
+								<p class="product-card_price">200 000 Р</p>
+								<a class="product-card_buy products-modal_btn" href="#">Купить</a>
+							</div>
+						</div>
+					</div>
+					<div class="product-card clearfix">
+						<a href="jewelry-inner.html">
+							<div class="product-card__img">
+								<img src="img/good5.png" alt="" />
+							</div>
+						</a>
+						<div class="product-card__about">
+							<p class="product-card_title"><a href="jewerly-inner.html">Серьги с топазами "Boucheron ", рубинами и бриллиантами</a>
+							</p>
+							<p class="product-card_text">Серьги из розового золота 750 пробы. Вставки: топаз "Лондон" - 3,40 ct, бриллианты - 0,26 ct, рубины - 0,56 ct.<span class="product-card_text_substrate"></span>
+							</p>
+							<p class="product-card_time-use">Под заказ</p>
+							<div class="product-card_price-block">
+								<p class="product-card_old-price"></p>
+								<p class="product-card_price">230 000 Р</p>
+								<a class="product-card_buy products-modal_btn" href="#">Купить</a>
+							</div>
+						</div>
+					</div>
+					<div class="product-card clearfix">
+						<a href="jewelry-inner.html">
+							<div class="product-card__img">
+								<img src="img/good6.png" alt="" />
+							</div>
+						</a>
+						<div class="product-card__about">
+							<p class="product-card_title"><a href="jewerly-inner.html">Серьги с танзанитом, аметистами и бриллиантами</a>
+							</p>
+							<p class="product-card_text">Серьги из розового золота 750 пробы. Вставки: бриллианты - 0,60 ct, танзанит - 0,85 ct, аметисты - 0,45 ct.<span class="product-card_text_substrate"></span>
+							</p>
+							<p class="product-card_time-use">В наличии</p>
+							<div class="product-card_price-block">
+								<p class="product-card_old-price">230 400 P</p>
+								<p class="product-card_price">190 000 Р</p>
+								<a class="product-card_buy products-modal_btn" href="#">Купить</a>
+							</div>
+						</div>
+					</div>
+					<div class="product-card clearfix">
+						<a href="jewelry-inner.html">
+							<div class="product-card__img">
+								<img src="img/slide-jewelry1.png" alt="" />
+							</div>
+						</a>
+						<div class="product-card__about">
+							<p class="product-card_title"><a href="jewerly-inner.html">Запонки Boucheron Nautilus 205.9057G</a>
+							</p>
+							<p class="product-card_text">Запонки выполнены из белого золота 750 пробы с серебристым гильошированием по центру.<span class="product-card_text_substrate"></span>
+							</p>
+							<p class="product-card_time-use">В наличии</p>
+							<div class="product-card_price-block">
+								<p class="product-card_old-price"></p>
+								<p class="product-card_price">311 700 Р</p>
+								<a class="product-card_buy products-modal_btn" href="#">Купить</a>
+							</div>
+						</div>
+					</div>
+					<div class="product-card clearfix">
+						<a href="jewelry-inner.html">
+							<div class="product-card__img">
+								<img src="img/good8.png" alt="" />
+							</div>
+						</a>
+						<div class="product-card__about">
+							<p class="product-card_title"><a href="jewerly-inner.html">Подвеска Boucheron Imperiale Артикул №799220-1003</a>
+							</p>
+							<p class="product-card_text">Подвеска из белого золота 750 пробы на цепочке длиной 60 см. Вставки - аметист.<span class="product-card_text_substrate"></span>
+							</p>
+							<p class="product-card_time-use">Под заказ</p>
+							<div class="product-card_price-block">
+								<p class="product-card_old-price"></p>
+								<p class="product-card_price">199 500 Р</p>
+								<a class="product-card_buy products-modal_btn" href="#">Купить</a>
+							</div>
+						</div>
+					</div>
+					<div class="product-card clearfix">
+						<a href="jewelry-inner.html">
+							<div class="product-card__img">
+								<img src="img/good9.png" alt="" />
+							</div>
+						</a>
+						<div class="product-card__about">
+							<p class="product-card_title"><a href="jewerly-inner.html">Подвеска Boucheron Imperiale Артикул №799220-1001</a>
+							</p>
+							<p class="product-card_text">Серьги из розового золота 750 пробы. Вставки: бриллианты - 0,60 ct, танзанит - 0,85 ct, аметисты - 0,45 ct.<span class="product-card_text_substrate"></span>
+							</p>
+							<p class="product-card_time-use">Под заказ</p>
+							<div class="product-card_price-block">
+								<p class="product-card_old-price">190 400 P</p>
+								<p class="product-card_price">186 600 Р</p>
+								<a class="product-card_buy products-modal_btn" href="#">Купить</a>
+							</div>
+						</div>
+					</div>
+					<div class="product-card clearfix">
+						<a href="jewelry-inner.html">
+							<div class="product-card__img">
+								<img src="img/good4.png" alt="" />
+							</div>
+						</a>
+						<div class="product-card__about">
+							<p class="product-card_title"><a href="jewerly-inner.html">Кольцо Boucheron Happy Diamonds</a>
+							</p>
+							<p class="product-card_text">Кольцо из белого золота 750 пробы с изумрудами и бриллиантом<span class="product-card_text_substrate"></span>
+							</p>
+							<p class="product-card_time-use">В наличии</p>
+							<div class="product-card_price-block">
+								<p class="product-card_old-price"></p>
+								<p class="product-card_price">200 000 Р</p>
+								<a class="product-card_buy products-modal_btn" href="#">Купить</a>
+							</div>
+						</div>
+					</div>
+					<div class="product-card clearfix">
+						<a href="jewelry-inner.html">
+							<div class="product-card__img">
+								<img src="img/good5.png" alt="" />
+							</div>
+						</a>
+						<div class="product-card__about">
+							<p class="product-card_title"><a href="jewerly-inner.html">Серьги с топазами "Boucheron ", рубинами и бриллиантами</a>
+							</p>
+							<p class="product-card_text">Серьги из розового золота 750 пробы. Вставки: топаз "Лондон" - 3,40 ct, бриллианты - 0,26 ct, рубины - 0,56 ct.<span class="product-card_text_substrate"></span>
+							</p>
+							<p class="product-card_time-use">Под заказ</p>
+							<div class="product-card_price-block">
+								<p class="product-card_old-price"></p>
+								<p class="product-card_price">230 000 Р</p>
+								<a class="product-card_buy products-modal_btn" href="#">Купить</a>
+							</div>
+						</div>
+					</div>
+					<div class="product-card clearfix">
+						<a href="jewelry-inner.html">
+							<div class="product-card__img">
+								<img src="img/good6.png" alt="" />
+							</div>
+						</a>
+						<div class="product-card__about">
+							<p class="product-card_title"><a href="jewerly-inner.html">Серьги с танзанитом, аметистами и бриллиантами</a>
+							</p>
+							<p class="product-card_text">Серьги из розового золота 750 пробы. Вставки: бриллианты - 0,60 ct, танзанит - 0,85 ct, аметисты - 0,45 ct.<span class="product-card_text_substrate"></span>
+							</p>
+							<p class="product-card_time-use">В наличии</p>
+							<div class="product-card_price-block">
+								<p class="product-card_old-price">230 400 P</p>
+								<p class="product-card_price">190 000 Р</p>
+								<a class="product-card_buy products-modal_btn" href="#">Купить</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- pagination -->
+				<div class="pagination-block">
+					<ul class="pagination">
+						<li class="pagination-step"><a class="active" href="#">1</a>
+						</li>
+						<li class="pagination-step"><a href="#">2</a>
+						</li>
+						<li class="pagination-step"><a href="#">3</a>
+						</li>
+						<li class="pagination-step"><a href="#">4</a>
+						</li>
+						<li class="pagination-step"><a href="#">5</a>
+						</li>
+						<li class="pagination-step"><a href="#">...</a>
+						</li>
+						<li class="pagination-step"><a href="#">Последняя</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="recommendations-block">
+					<div class="mini-title recommendation-title">
+						<div class="mini-title-block dropdown"><span><button class="button">Бутик рекомендует<i class="icon icon-arrow"></i></button></span>
+						</div>
+					</div>
+					<ul class="select-products_list">
+						<li><a href="#">ТОПы продаж</a>
+						</li>
+						<li><a href="#">Спецпредложения</a>
+						</li>
+						<li><a href="#">Ранее в продаже</a>
+						</li>
+						<li class="active"><a href="#">Бутик рекомендует</a>
+						</li>
+					</ul>
+
+					<div class="recommendation-catalog">
+						<div class="product-card clearfix">
+							<div class="product-card__img">
+								<img src="img/best-goods1.png" alt="" />
+							</div>
+							<div class="product-card__about">
+								<p class="product-card_title">Кольцо Boucheron <span class="product-card_mini-title">Quatre White</span>
+								</p>
+								<p class="product-card_time-use">В наличии</p>
+								<p class="product-card_time-use">Новинка</p>
+								<div class="product-card_price-block">
+									<p class="product-card_old-price">642 800 Р</p>
+									<p class="product-card_price">600 000 Р</p>
+									<a class="product-card_buy products-modal_btn" href="#">Купить</a>
+								</div>
+							</div>
+						</div>
+						<div class="product-card clearfix">
+							<div class="product-card__img">
+								<img src="img/best-goods2.png" alt="" />
+							</div>
+							<div class="product-card__about">
+								<p class="product-card_title">Серьги BVLGARI</p>
+								<p class="product-card_time-use">В наличии</p>
+								<p class="product-card_time-use">Новинка</p>
+								<div class="product-card_price-block">
+									<p class="product-card_old-price">642 800 Р</p>
+									<p class="product-card_price">600 000 Р</p>
+									<a class="product-card_buy products-modal_btn" href="#">Купить</a>
+								</div>
+							</div>
+						</div>
+						<div class="product-card clearfix">
+							<div class="product-card__img">
+								<img src="img/best-goods3.png" alt="" />
+							</div>
+							<div class="product-card__about">
+								<p class="product-card_title">Подвеска CARRERA Y CARRERA <span class="product-card_mini-title">Sol y Somra Maxi</span>
+								</p>
+								<p class="product-card_time-use">В наличии</p>
+								<p class="product-card_time-use">Новинка</p>
+								<div class="product-card_price-block">
+									<p class="product-card_old-price">642 800 Р</p>
+									<p class="product-card_price">600 000 Р</p>
+									<a class="product-card_buy products-modal_btn" href="#">Купить</a>
+								</div>
+							</div>
+						</div>
+						<div class="product-card clearfix">
+							<div class="product-card__img">
+								<img src="img/best-goods1.png" alt="" />
+							</div>
+							<div class="product-card__about">
+								<p class="product-card_title">Кольцо Boucheron <span class="product-card_mini-title">Quatre White</span>
+								</p>
+								<p class="product-card_time-use">В наличии</p>
+								<p class="product-card_time-use">Новинка</p>
+								<div class="product-card_price-block">
+									<p class="product-card_old-price">642 800 Р</p>
+									<p class="product-card_price">600 000 Р</p>
+									<a class="product-card_buy products-modal_btn" href="#">Купить</a>
+								</div>
+							</div>
+						</div>
+						<div class="product-card clearfix">
+							<div class="product-card__img">
+								<img src="img/best-goods2.png" alt="" />
+							</div>
+							<div class="product-card__about">
+								<p class="product-card_title">Серьги BVLGARI</p>
+								<p class="product-card_time-use">В наличии</p>
+								<p class="product-card_time-use">Новинка</p>
+								<div class="product-card_price-block">
+									<p class="product-card_old-price">642 800 Р</p>
+									<p class="product-card_price">600 000 Р</p>
+									<a class="product-card_buy products-modal_btn" href="#">Купить</a>
+								</div>
+							</div>
+						</div>
+						<div class="product-card clearfix">
+							<div class="product-card__img">
+								<img src="img/best-goods3.png" alt="" />
+							</div>
+							<div class="product-card__about">
+								<p class="product-card_title">Подвеска CARRERA Y CARRERA <span class="product-card_mini-title">Sol y Somra Maxi</span>
+								</p>
+								<p class="product-card_time-use">В наличии</p>
+								<p class="product-card_time-use">Новинка</p>
+								<div class="product-card_price-block">
+									<p class="product-card_old-price">642 800 Р</p>
+									<p class="product-card_price">600 000 Р</p>
+									<a class="product-card_buy products-modal_btn" href="#">Купить</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="text-toggle">
+					<p class="catalog-page_about">Часы – это один их самых ярких элементов стиля. С помощью часов можно подчеркнуть не только статус человека, но и его индивидуальность. Это культовый аксессуар, который никогда не выйдет из моды. Для успешных людей часы являются необходимым аксессуаром.
+						Особенно это касается мужчин, ведь элитные и дорогие часы всегда были признаком успеха и самодостаточности. Правильно подобранные аксессуары гармонично дополняют образ и придают уверенность обладателю. Какой из брендов является самым престижным
+						решить очень сложно. В каталоге наше продукции представлены элитные часовые бренды, завоевавшие множество премий в области часового искусства. У нас представлены как классические варианты, так и современные с дополнительным функционалом. модели
+						содержат сразу несколько циферблатов. Также они могут быть оснащены календарем, будильником и даже подсветкой. Но не только дополнительные функции делают данные модели интересными и желанными. Среди современных моделей встречаются с совершенно невообразимым
+						видом. Если вы любите смелые решения, то вам подойдут модели таких брендов как Cvstos, HD3 slyde, Romain Jerome, Sevenfriday, Urwerk. Дорогие и стильные часы требуют соответствующее место для хранения. В нашем каталоге также представлены великолепные
+						часовые шкатулки. У нас представлены боксы с подзаводом для 1, 2, 3, 4, 6, 8 и 16 пар часов.</p>
+					<p class="text-open toggle-btn">Развернуть</p>
+				</div>
+			</div>
+		</div>
+		<div class="products-modal">
+			<div class="products-modal_content">
+				<a href="#" class="close-menu"></a>
+				<div class="products-modal_block">
+					<p class="products-modal_title">
+						Вы поместили товар в корзину.
+					</p>
+					<a class="products-modal_btn-basket">Перейти в корзину</a>
+					<a class="products-modal_btn-next">Продолжить покупки</a>
+				</div>
+			</div>
+		</div>
+
+	</main>
+	<!-- footer -->
+	<footer class="main-footer clearfix">
+		<div class="container">
+
+			<!-- menu -->
+			<button id="footer-button" class="footer-button" type="button">меню</button>
+			<div class="social-block_mobile">
+				<a class="footer-icon footer-social_vk" href="#">vk</a>
+				<a class="footer-icon footer-social_fb" href="#">fb</a>
+				<a class="footer-icon footer-social_google" href="#">google</a>
+				<a class="footer-icon footer-social_inst" href="#">inst</a>
+			</div>
+
+			<!-- top -->
+			<div class="main-footer__top clearfix">
+				<!-- header -->
+				<div class="footer-menu">
+					<a href="#" class="close-menu">закрыть</a>
+					<span class="footer-menu_title">Меню</span>
+				</div>
+
+				<div class="main-footer__top_left">
+					<ul class="main_col-list">
+						<li class="title"><a class="title-list" href="catalog-clock.html">Часы</a><span class="title-link"></span>
+							<ul class="col-list">
+								<div class="footer-menu_inner">
+									<a href="#" class="close-inner-menu"><i class="icon icon-footer-arrow"></i></a>
+									<li class="col-list_header">Часы</li>
+								</div>
+								<li><a href=#>A. Lange & Sohne</a>
+								</li>
+								<li><a href=#>Harry Winston</a>
+								</li>
+								<li><a href=#>Patek Philippe</a>
+								</li>
+
+								<li><a href=#>Audemars Piguet</a>
+								</li>
+								<li><a href=#>HD3 SLYDE</a>
+								</li>
+								<li><a href=#>Pierre Kunz</a>
+								</li>
+
+								<li><a href=#>Bell & Ross</a>
+								</li>
+								<li><a href=#>Gerald Genta</a>
+								</li>
+								<li><a href=#>Perrelet</a>
+								</li>
+
+								<li><a href=#>BlancPain</a>
+								</li>
+								<li><a href=#>Girard Perregaux</a>
+								</li>
+								<li><a href=#>Rado</a>
+								</li>
+
+								<li><a href=#>Bovet</a>
+								</li>
+								<li><a href=#>Graham</a>
+								</li>
+								<li><a href=#>Raymond Weil</a>
+								</li>
+
+								<li><a href=#>Breguet</a>
+								</li>
+								<li><a href=#>HYT</a>
+								</li>
+								<li><a href=#>Richard Mille</a>
+								</li>
+
+								<li><a href=#>Breitling</a>
+								</li>
+								<li><a href=#>Hublot</a>
+								</li>
+								<li><a href=#>Roger Dubuis</a>
+								</li>
+
+								<li><a href=#>Daniel Roth</a>
+								</li>
+								<li><a href=#>IWC</a>
+								</li>
+								<li><a href=#>Rolex</a>
+								</li>
+
+								<li><a href=#>Cartier</a>
+								</li>
+								<li><a href=#>Jacob & Co</a>
+								</li>
+								<li><a href=#>Romain Jerome</a>
+								</li>
+
+								<li><a href=#>Chanel</a>
+								</li>
+								<li><a href=#>Jaeger-LeCoultre</a>
+								</li>
+								<li><a href=#>Sevenfriday</a>
+								</li>
+
+								<li><a href=#>Chopard</a>
+								</li>
+								<li><a href=#>Jaquet Droz</a>
+								</li>
+								<li><a href=#>Ulysse Nardin</a>
+								</li>
+
+								<li><a href=#>Corum</a>
+								</li>
+								<li><a href=#>Jorg Hysek</a>
+								</li>
+								<li><a href=#>Urwerk</a>
+								</li>
+
+								<li><a href=#>Cvstos</a>
+								</li>
+								<li><a href=#>Longines</a>
+								</li>
+								<li><a href=#>Vacheron Constantin</a>
+								</li>
+
+								<li><a href=#>De Grisogono</a>
+								</li>
+								<li><a href=#>Maurice Lacroix</a>
+								</li>
+								<li><a href=#>Van Cleef & Arpels</a>
+								</li>
+
+								<li><a href=#>DeWitt</a>
+								</li>
+								<li><a href=#>Omega</a>
+								</li>
+								<li><a href=#>Zenith</a>
+								</li>
+
+								<li><a href=#>Franсk Muller</a>
+								</li>
+								<li><a href=#>Parmigiani</a>
+								</li>
+								<li></li>
+
+								<li><a href=#>Franc Vila</a>
+								</li>
+								<li><a href=#>Panerai</a>
+								</li>
+								<li><a href=#>Другие бренды</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+
+				</div>
+				<div class="main-footer__top_center clearfix">
+					<ul class="main_col-list">
+						<li class="title"><a class="title-list" href=#>Ювелирные украшения</a><span class="title-link"></span>
+							<ul class="col-list">
+								<div class="footer-menu_inner">
+									<a href="#" class="close-inner-menu"><i class="icon icon-footer-arrow"></i></a>
+									<li class="col-list_header">Ювелирные украшения</li>
+								</div>
+								<li><a href=#>Boucheron</a>
+								</li>
+								<li><a href=#>Bvlgari</a>
+								</li>
+								<li><a href=#>Carrerra y Carrera</a>
+								</li>
+								<li><a href=#>Cartier</a>
+								</li>
+								<li><a href=#>Graff</a>
+								</li>
+								<li><a href=#>Chopard</a>
+								</li>
+								<li><a href=#>Mousson Atelier</a>
+								</li>
+								<li><a href=#>Tiffany</a>
+								</li>
+								<li><a href=#>Pasquale Bruni</a>
+								</li>
+								<li></li>
+								<li><a href=#>Другие бренды</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="main_col-list">
+						<li class="title"><a class="title-list" href=#>Аксессуары</a><span class="title-link"></span>
+							<ul class="col-list">
+								<div class="footer-menu_inner">
+									<a href="#" class="close-inner-menu"><i class="icon icon-footer-arrow"></i></a>
+									<li class="col-list_header">Аксессуары</li>
+								</div>
+								<li><a href=#>Ювелирные шкатулки</a>
+								</li>
+								<li><a href=#>Часовые шкатулки</a>
+								</li>
+							</ul>
+						</li>
+						<li class="title"><a class="title-list" href=#>Новинки в каталоге</a>
+						</li>
+						<li class="title"><a class="title-list" href=#>Специальные предложения</a>
+						</li>
+						<li class="title"><a class="title-list" href=#>Топы продаж</a>
+						</li>
+						<li class="title"><a class="title-list" href=#>Ранее в продаже</a>
+						</li>
+					</ul>
+				</div>
+				<div class="main-footer__top_right clearfix">
+					<div class="main-footer__top_right-top">
+						<ul class="main_col-list clearfix">
+							<li class="title"><a class="title-list" href=#>Часовая мастерская</a><span class="title-link"></span>
+								<ul class="col-list">
+									<div class="footer-menu_inner">
+										<a href="#" class="close-inner-menu"><i class="icon icon-footer-arrow"></i></a>
+										<li class="col-list_header">Часовая мастерская</li>
+									</div>
+									<li><a href=#>Комиссия</a>
+									</li>
+									<li><a href=#>Ремонт часов</a>
+									</li>
+									<li><a href=#>Репассаж</a>
+									</li>
+									<li><a href=#>Выкуп часов</a>
+									</li>
+									<li><a href=#>Диагностика часов</a>
+									</li>
+									<li><a href=#>Часы под заказ</a>
+									</li>
+									<li><a href=#>Тюнинг часов</a>
+									</li>
+								</ul>
+							</li>
+							<li class="title"><a class="title-list" href=#>О компании</a><span class="title-link"></span>
+								<ul class="col-list">
+									<div class="footer-menu_inner">
+										<a href="#" class="close-inner-menu"><i class="icon icon-footer-arrow"></i></a>
+										<li class="col-list_header">О компании</li>
+									</div>
+									<li><a href=#>О нас</a>
+									</li>
+									<li><a href=#>Новости компании</a>
+									</li>
+									<li><a href=#>Тематические статьи</a>
+									</li>
+									<li><a href=#>Словарь терминов</a>
+									</li>
+									<li><a href=#>Частые вопросы</a>
+									</li>
+									<li><a href=#>Доставка</a>
+									</li>
+									<li><a href=#>Контакты</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="footer_social-block">
+						<div class="main-footer__top_right-middle">
+							<div class="social-block">
+								<a class="footer-icon footer-social_vk" href="#">vk</a>
+								<a class="footer-icon footer-social_fb" href="#">fb</a>
+								<a class="footer-icon footer-social_google" href="#">google</a>
+								<a class="footer-icon footer-social_inst" href="#">inst</a>
+							</div>
+						</div>
+						<div class="main-footer__top_right-bottom">
+							<form id="form-subscribe" class="form form_subscribe form_subscribe_footer">
+								<label for="subscribe_email" class="form-label_subscribe">Подписка на новости компании:</label>
+								<input id="subscribe_email" type="email" class="form-input form-input_subscribe" placeholder="E-mail">
+								<a class="subscribe-btn">Подписаться</a>
+							</form>
+
+							<div class="subscribe-modal">
+								<div class="subscribe-modal_content">
+									<a href="#" class="close-menu">закрыть</a>
+									<div class="subscribe-modal_block">
+										<p class="subscribe-modal_title">
+											Благодарим за подписку на дайджест компании!
+										</p>
+										<p class="subscribe-modal_text">На указанный e-mail отправлено письмо с подтверждением. Если письмо не приходит в течение 5 минут и более, проверьте папку "Спам"</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="search-form-block_footer">
+					<form id="form-search" class="form form_search form_search_footer">
+						<input id="footer_search-site" type="search" class="form-input form-input_search" placeholder="Поиск по сайту">
+						<button type="button" class="btn-search  btn-search_footer resize"> <i class="icon icon-search_footer"></i>
+						</button>
+					</form>
+				</div>
+			</div>
+			<!-- midle -->
+			<div class="main-footer__middle">
+				<div class="demo-container clocks active bounce">
+					<div class="flash-clock Moscow-time">
+						<article class="clock simple">
+							<div class="hours-container">
+								<div class="hours"></div>
+							</div>
+							<div class="minutes-container">
+								<div class="minutes"></div>
+							</div>
+							<div class="seconds-container">
+								<div class="seconds"></div>
+							</div>
+						</article>
+						<div class="flash-clock_item">
+							<p>Москва</p>
+						</div>
+					</div>
+					<div class="flash-clock London-time">
+						<article class="clock simple">
+							<div class="hours-container">
+								<div class="hours"></div>
+							</div>
+							<div class="minutes-container">
+								<div class="minutes"></div>
+							</div>
+							<div class="seconds-container">
+								<div class="seconds"></div>
+							</div>
+						</article>
+						<div class="flash-clock_item">
+							<p>Лондон</p>
+						</div>
+					</div>
+					<div class="flash-clock Rome-time">
+						<article class="clock simple">
+							<div class="hours-container">
+								<div class="hours"></div>
+							</div>
+							<div class="minutes-container">
+								<div class="minutes"></div>
+							</div>
+							<div class="seconds-container">
+								<div class="seconds"></div>
+							</div>
+						</article>
+						<div class="flash-clock_item">
+							<p>Рим</p>
+						</div>
+					</div>
+					<div class="flash-clock San-time">
+						<article class="clock simple">
+							<div class="hours-container">
+								<div class="hours"></div>
+							</div>
+							<div class="minutes-container">
+								<div class="minutes"></div>
+							</div>
+							<div class="seconds-container">
+								<div class="seconds"></div>
+							</div>
+						</article>
+						<div class="flash-clock_item">
+							<p>Сан-Франциско</p>
+						</div>
+					</div>
+				</div>
+				<!-- logo -->
+				<div class="logo_footer">
+					<a href="index.html">
+						<img class="footer-logo" src="img/logo-white.svg" alt="" />
+					</a>
+				</div>
+			</div>
+			<!-- bottom -->
+			<div class="main-footer__bottom">
+				<div class="footer_right-info">
+					<p>Внимание. Информация, представленная на страницах магазина spbluxwatches.ru носит сугубо рекламно-информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 (2) Гражданского кодекса РФ. Точную
+						и окончательную информацию о наличии и стоимости Вы можете получить, связавшись с нами по телефонам +7 (812) 702-77-82, +7 (812) 999-12-88</p>
+					<img class="footer-label" src="img/label.png" alt="" />
+				</div>
+				<div class="main-footer__main-bottom clearfix">
+					<div class="copyright">
+						<p class="copyright-text">© 2013-2016 "Spbluxwatches.ru", Санкт-Петербург</p>
+					</div>
+					<div class="card-name">
+						<img src="img/pay-logo.png" alt="" />
+					</div>
+					<div class="developed">
+						<p class="developed-text">Developed by 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- jq -->
+	<script src='js/jq.min.js'></script>
+	<script src='js/main.min.js'></script>
+	<!-- selects -->
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$( "#catalog-form_select" ).selectmenu();
+			$( "#catalog-form_select2" ).selectmenu();
+			$( "#catalog-form_select3" ).selectmenu();
+			$( "#catalog-form_select4" ).selectmenu();
+			$( "#catalog-form_select5" ).selectmenu();
+			$( "#select-number_item" ).selectmenu();
+		});
+	</script>
+	<!-- навиагация по страницам верстки / удалить на продакшене -->
+	<div id="pages-22" class="pages">
+		<div id="toogle-23" class="pages-header">
+			<p>Навигация страниц верстки</p>
+			<span>GP</span>
+			<i id="close-24" class="icon-pages"></i>
+		</div>
+		<ul>
+			<li><a href="./">Главная</a>
+			</li>
+			<li><a href="about.html">О компании</a>
+			</li>
+			<li><a href="contacts.html">Контакты</a>
+			</li>
+			<li><a href="accessories-inner.html">Карточка товара</a>
+			</li>
+			<li><a href="articles.html">Статьи</a>
+			</li>
+			<li><a href="article-inner.html">Страница статьи</a>
+			</li>
+			<li><a href="clock.html">Список товаров - Часы</a>
+			</li>
+			<li><a href="clock-inner.html">Карточка товара - Часы</a>
+			</li>
+			<li><a href="delivery.html">Доставка</a>
+			</li>
+			<li><a href="dictionary.html">Словарь терминов</a>
+			</li>
+			<li><a href="faq.html">FAQ</a>
+			</li>
+			<li><a href="news.html">Новости</a>
+			</li>
+			<li><a href="services.html">Услуги</a>
+			</li>
+			<li><a href="services-inner.html">Страница услуги</a>
+			</li>
+			<li><a href="jewelry.html">Ювелирные изделия</a>
+			</li>
+			<li><a href="jewelry-inner.html">Карточка товара - Ювелирные изделия </a>
+			</li>
+			<li><a href="ui.html">ui</a>
+			</li>
+		</ul>
+	</div>
+	<script>
+		$('#toogle-23').on('click', function(event) {
+			event.preventDefault();
+			/* Act on the event */
+			$('#pages-22').toggleClass('open');
+		});
+	</script>
+</body>
+
+</html>

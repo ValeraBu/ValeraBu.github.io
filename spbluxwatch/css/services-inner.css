@@ -1,0 +1,183 @@
+.services-inner-page .services-page_description {
+  max-width: 1095px;
+  color: #2d2d2d;
+  font-size: 13px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.services-inner-page .services-list {
+  padding-bottom: 20px;
+}
+
+.services-inner-page .services-list_pic {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.services-inner-page .services-list_text {
+  float: right;
+  width: 50%;
+}
+
+.services-inner-page .services-list_text .services-list_title {
+  color: #333;
+  font-size: 24px;
+  font-family: "Museo Cyrl";
+  font-weight: 700;
+}
+
+.services-inner-page .services-list_text .services-list_item li {
+  color: #333;
+  font-size: 16px;
+  font-family: "Museo Cyrl";
+  font-weight: 300;
+}
+
+.services-inner-page .request-block {
+  background: url(/img/pattern.png) repeat;
+  padding-top: 20px;
+}
+
+.services-inner-page .responsibility {
+  text-align: center;
+  background: url(/img/responsibility-bg.jpg) center 0 no-repeat;
+  height: 613px;
+  overflow: hidden;
+  padding-top: 70px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.services-inner-page .responsibility .responsibility-title {
+  color: #fff;
+  font-size: 24px;
+  font-family: "Museo Cyrl";
+  font-weight: 700;
+  max-width: 508px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.services-inner-page .responsibility .responsibility-about {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Museo Cyrl";
+  font-weight: 100;
+  margin: 0 auto;
+  max-width: 692px;
+  line-height: 24px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.services-inner-page .responsibility .responsibility-about:after {
+  position: absolute;
+  content: "";
+  width: 7px;
+  height: 7px;
+  background: #fff;
+  bottom: 38px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+
+.services-inner-page .responsibility .responsibility-call {
+  max-width: 681px;
+  margin: 0 auto;
+}
+
+.services-inner-page .responsibility .responsibility-call .responsibility-call_text {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Museo Cyrl";
+  font-weight: 100;
+  line-height: 24px;
+}
+
+.services-inner-page .responsibility .responsibility-call .phone-number {
+  color: #fff;
+  font-size: 24px;
+  font-family: "Museo Cyrl";
+  font-weight: 900;
+  display: block;
+  line-height: 30px;
+}
+
+.services-inner-page .services-brands {
+  background: #f3f3f3;
+  text-align: center;
+  height: 505px;
+  padding-top: 50px;
+}
+
+.services-inner-page .services-brands .services-brands_about {
+  color: #2d2d2d;
+  font-size: 13px;
+  max-width: 1015px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.services-inner-page .services-brands .services-brands_block .services-brands_item {
+  display: inline-block;
+  max-width: 152px;
+  height: 100%;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.services-inner-page .services-brands .services-brands_block .services-brands_item img {
+  width: 100%;
+  height: auto;
+}
+
+.services-inner-page .services-brands .services-brands_block .services-brands_item .brands-title {
+  color: #333;
+  font-size: 14px;
+}
+
+.services-inner-page .specialists .specialists-about {
+  float: left;
+  width: 50%;
+  padding: 80px 0;
+}
+
+.services-inner-page .specialists .specialists-about .specialists-about_title {
+  color: #000;
+  font-size: 24px;
+  font-family: "Museo Cyrl";
+  font-weight: 700;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  max-width: 495px;
+}
+
+.services-inner-page .specialists .specialists-about .specialists-about_about {
+  color: #2d2d2d;
+  font-size: 16px;
+  max-width: 660px;
+}
+
+.services-inner-page .specialists .specialists-about .certificates .certificates-item {
+  display: inline-block;
+  width: 130px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.services-inner-page .specialists .specialists-pic {
+  float: right;
+  width: 50%;
+}
+
+.services-inner-page .specialists .specialists-pic img {
+  width: 100%;
+  height: auto;
+}

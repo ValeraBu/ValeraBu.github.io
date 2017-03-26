@@ -1,0 +1,181 @@
+.news-page .main-page__title span {
+  color: #4e4132;
+  font-size: 24px;
+}
+
+.news-page .news-photo-block {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.news-page .news-photo-block .news-photo-block_text {
+  margin: 0;
+  color: #fff;
+  font-size: 30px;
+  font-family: "Museo Cyrl";
+  font-weight: 700;
+  position: absolute;
+  bottom: 20px;
+  padding-left: 20px;
+}
+
+.news-page .news-photo-block .news-photo-block_text .news-photo-block_text-price {
+  border: 1px solid #fff;
+  padding: 2px 10px;
+}
+
+.news-page .news-photo-block .news-photo-block_item1 {
+  width: 50%;
+  height: 678px;
+  float: left;
+  background: url(/img/news-photo1.png) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.news-page .news-photo-block .news-photo-block_item2 {
+  width: 50%;
+  float: right;
+  height: 678px;
+}
+
+.news-page .news-photo-block .news-photo-block_item2 .news-photo-block_item2-top {
+  height: 50%;
+}
+
+.news-page .news-photo-block .news-photo-block_item2 .news-photo-block_item2-top .news-photo-block_item2-top_left {
+  float: left;
+  width: 50%;
+  height: 339px;
+  background: url(/img/news-photo2.png) center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.news-page .news-photo-block .news-photo-block_item2 .news-photo-block_item2-top .news-photo-block_item2-top_left .news-photo-block_text {
+  color: #a39178;
+  max-width: 203px;
+}
+
+.news-page .news-photo-block .news-photo-block_item2 .news-photo-block_item2-top .news-photo-block_item2-top_right {
+  float: right;
+  width: 50%;
+  height: 339px;
+  background: url(/img/news-photo3.png) center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.news-page .news-photo-block .news-photo-block_item2 .news-photo-block_item2-top .news-photo-block_item2-top_right .news-photo-block_text {
+  max-width: 350px;
+}
+
+.news-page .news-photo-block .news-photo-block_item2 .news-photo-block_item2-bottom {
+  height: 50%;
+  background: url(/img/news-photo4.png) center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.news-page .news-photo-block .news-photo-block_item2 .news-photo-block_item2-bottom .news-photo-block_text {
+  color: #a39178;
+  max-width: 246px;
+}
+
+.news-page .new-workshop {
+  margin-top: 30px;
+  width: 100%;
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.news-page .new-workshop .new-workshop_item1 {
+  width: 50%;
+  float: left;
+  padding: 20px 0;
+  height: auto;
+}
+
+.news-page .new-workshop .new-workshop_item1 .new-workshop_text-block {
+  max-width: 603px;
+}
+
+.news-page .new-workshop .new-workshop_item1 .new-workshop_text-block .new-workshop_text-block__title {
+  font-family: "Museo Cyrl";
+  font-weight: 700;
+  color: #a39178;
+  font-size: 30px;
+}
+
+.news-page .new-workshop .new-workshop_item1 .new-workshop_text-block .new-workshop_text-block__about {
+  color: #8b8b8b;
+  font-size: 14px;
+}
+
+.news-page .new-workshop .new-workshop_item1 .new-workshop_text-block .read-more {
+  color: #a39178;
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.news-page .new-workshop .new-workshop_item2 {
+  width: 50%;
+  float: right;
+  overflow: hidden;
+}
+
+.news-page .new-workshop .new-workshop_item2 .new-workshop_pic {
+  width: 100%;
+  position: relative;
+}
+
+.news-page .new-workshop .new-workshop_item2 .new-workshop_pic img {
+  width: 100%;
+  height: auto;
+}
+
+.news-page .new-workshop .new-workshop_item2 .new-workshop_pic::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 79px;
+  height: 79px;
+  margin: 0 auto 30px;
+  background: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2279%22%20height%3D%2279%22%20viewBox%3D%220%200%2079%2079%22%3E%3Ccircle%20cx%3D%2239.5%22%20cy%3D%2239.5%22%20r%3D%2239.5%22%20fill%3D%22%23FFF%22%20opacity%3D%22.65%22%2F%3E%3Cpath%20d%3D%22M51.2%2040.43L32.39%2052.69c-1.02.67-2.39.32-2.39-1.64V26.92c0-1.98%201.28-2.25%202.39-1.64L51.2%2037.54c1.06.7%201.09%202.13%200%202.89zm-19.22%209.82l17.85-11.27-17.85-11.26v22.53z%22%20fill%3D%22%23FFF%22%2F%3E%3C%2Fsvg%3E) no-repeat;
+  background-size: 100%;
+  -webkit-transition: all .5s ease;
+          transition: all .5s ease;
+  top: 180px;
+  left: 0;
+  right: 0;
+}
+
+.news-page .new-workshop .new-workshop_item2 .video-presentation:hover .new-workshop_pic::after {
+  -webkit-transform: scale(1.6, 1.6);
+      -ms-transform: scale(1.6, 1.6);
+          transform: scale(1.6, 1.6);
+  -webkit-transition: all .5s ease;
+          transition: all .5s ease;
+}
+
+.news-page .news-block_item {
+  padding-bottom: 40px;
+}
+
+.news-page .news-block_item:nth-child(3) {
+  padding-right: 0px;
+}
+
+.news-page .news-block_item:nth-child(4) {
+  padding-left: 0px;
+}
+
+.news-page .another-news {
+  padding-bottom: 40px;
+}
+
+.another-news_slider_slide {
+  text-align: center;
+}

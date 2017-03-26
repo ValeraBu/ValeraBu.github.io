@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv=Content-Type content="text/html;charset=UTF-8">
+	<title>Watch</title>
+	<meta name="keywords" content="keywords">
+	<meta name="description" content="description ">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<script src="js/modernizr-custom.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.min.css">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/ico">
+</head>
+
+<body>
+	<!-- header -->
+	<header class="main-header clearfix">
+		<!-- logo -->
+		<div class="main-logo">
+			<a href="index.html">
+				<img class="header-logo" src="img/logo-black.svg" alt="" />
+			</a>
+		</div>
+		<div class="container">
+			<!-- top -->
+			<div class="header__top clearfix">
+				<!-- menu -->
+				<button id="button-menu" class="button-menu" type="button">меню</button>
+				<!-- search -->
+				<button id="button-search" class="button-search" type="button">поиск</button>
+				<div class="mobile-search">
+					<div class="mobile-search_header">
+						<a href="#" class="close-menu">закрыть</a>
+						<span class="search-title">Поиск по сайту</span>
+					</div>
+					<form id="form-search_mobile" class="form form-search_mobile">
+						<input id="search-site" type="search" class="form-input form-input_search-mobile" placeholder="Введите ваш запрос">
+						<button type="submit" class="btn-search_mobile"><span>Искать</span><i class="icon icon-search-mobile"></i>
+						</button>
+					</form>
+				</div>
+				<!-- form -->
+				<form id="form-search" class="form form_search form_search_header">
+					<input id="search-site" type="search" class="form-input form-input_search" placeholder="Поиск по сайту">
+					<button type="search" class="btn-search"> <i class="icon icon-search"></i>
+					</button>
+				</form>
+				<!-- top -->
+				<div class="header__top_right">
+					<div class="header__top_right-item header__top_phone-block">
+						<a class="phone-number" href="tel:8(812)702-77-82">+7 (812) 702-77-82</a>
+						<a class="phone-number" href="tel:8(812)702-77-82">+7 (812) 999-12-88</a>
+						<button id="button-phone" class="button-phone" type="button">Телефон</button>
+					</div>
+
+					<!-- modal-phone -->
+					<div class="modal-phone">
+						<div class="modal-phone_header">
+							<a href="#" class="close-menu">закрыть</a>
+							<span class="phone-title">Наши телефоны</span>
+						</div>
+						<a class="phone-number" href="tel:8(812)702-77-82">+7 (812) 702-77-82</a>
+						<a class="phone-number" href="tel:8(812)999-12-88">+7 (812) 999-12-88</a>
+					</div>
+					<div class="header__top_right-item header__top_select-currency">
+						<i class="icon icon-currency"></i>
+						<ul class="currency-popup">
+							<li class="currency-popup__title active"><a href="#">Р</a>
+							</li>
+							<li class="currency-popup__title"><a href="#">$</a>
+							</li>
+							<li class="currency-popup__title"><a href="#">€</a>
+							</li>
+						</ul>
+					</div>
+					<div class="header__top_right-item header__top_basket">
+						<i class="icon icon-basket"></i>
+						<span class="basket-circle">1</span>
+						<div class="basket-popup">
+							<div class="basket-popup-header">
+								В вашей корзине <span class="basket-popup-header__value">0 товаров</span>
+							</div>
+							<div class="basket-popup-body">
+								<ul>
+									<li>0р</li>
+									<li>0$</li>
+									<li>0€</li>
+								</ul>
+							</div>
+							<div class="basket-popup-footer">
+								<a href="#" class="btn">Перейти в корзину</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- midle -->
+			<div class="header__middle clearfix">
+				<!-- header -->
+				<div class="header-menu">
+					<a href="#" class="close-menu">закрыть</a>
+				</div>
+				<!-- left menu -->
+				<nav class="header__middle_nav header__middle_nav-left">
+					<ul>
+						<li><a class="active" href="/">О компании</a>
+						</li>
+						<li><a href="services.html">Часовая мастерская</a>
+						</li>
+						<li><a href="news.html">Новости</a>
+						</li>
+						<li><a href="articles.html">Статьи</a>
+						</li>
+					</ul>
+				</nav>
+				<!-- right menu -->
+				<nav class="header__middle_nav header__middle_nav-right">
+					<ul>
+						<li><a href="faq.html">FAQ</a>
+						</li>
+						<li><a href="dictionary.html">Словарь терминов</a>
+						</li>
+						<li><a href="delivery.html">Доставка</a>
+						</li>
+						<li><a href="contacts.html">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<!-- bottom -->
+			<div class="header__bottom">
+				<nav class="header__bottom_nav">
+					<ul>
+						<li><a href="clock.html">Часы</a>
+						</li>
+						<li><a href="jewelry.html">Ювелирные изделия</a>
+						</li>
+						<li><a href="accessories.html">Аксессуары</a>
+						</li>
+						<li><a href="deals.html">Спецпредложения</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<main class="wrapper">
+		<!-- breadcrumbs -->
+		<section class="breadcrumbs">
+			<ul class="main-breadcrumbs">
+				<li><a href="#"><span>Главная</span></a>
+				</li>
+				<li><a class="active" href="#"><span>Часы</span></a>
+				</li>
+			</ul>
+		</section>
+		<!-- content -->
+		<div class="content">
+			<div class="container">
+				<!-- title -->
+				<div class="main-title">
+					<div class="main-title-block"><span>О компании</span>
+					</div>
+				</div>
+				<!-- text about -->
+				<p class="text-about">Во что Вы предпочитаете вкладывать деньги? Всем известно, что одними из самых надежных вложений являются вложения в золото и драгоценности, ведь они, в отличие от большинства валют, всегда остаются востребованными, и их стоимость не уменьшается с
+					течением времени. Подобные инвестиции становятся Вашей своеобразной «подушкой безопасности» на случай непредвиденных жизненных обстоятельств, поскольку обладают высокой ликвидностью.</p>
+			</div>
+			<!-- advantages -->
+			<div class="advantages-block">
+				<!-- item -->
+				<div class="advantages-block_item">
+					<img src="img/icon-about1.png" alt="" />
+					<p class="advantages-block_title">Надежность</p>
+				</div>
+				<!-- item -->
+				<div class="advantages-block_item">
+					<img src="img/icon-about2.png" alt="" />
+					<p class="advantages-block_title">Долговечность</p>
+				</div>
+				<!-- item -->
+				<div class="advantages-block_item">
+					<img src="img/icon-about3.png" alt="" />
+					<p class="advantages-block_title">Безопасность</p>
+				</div>
+			</div>
+			<!-- photos -->
+			<div class="about-page_photo-block">
+				<!-- photo -->
+				<div class="photo-about">
+					<img src="img/photo-about1.jpg" alt="" />
+				</div>
+				<!-- photo -->
+				<div class="photo-about">
+					<img src="img/photo-about2.jpg" alt="" />
+				</div>
+				<!-- photo -->
+				<div class="photo-about">
+					<img src="img/photo-about3.jpg" alt="" />
+				</div>
+			</div>
+			<!-- call me -->
+			<div class="call-me_block clearfix">
+				<div class="container">
+					<!-- text -->
+					<div class="call-me_block_text">
+						<p>Однако не менее надежным вложением с полным правом можно считать покупку часов от известных мировых брендов. Многие из таких часов по своей стоимости сопоставимы со стоимостью хорошего автомобиля или даже превышают ее. Человек, который может позволить
+							и позволяет себе подобные аксессуары, автоматически приобретает особый статус и особое положение.</p>
+					</div>
+					<!-- phones -->
+					<div class="call-me_block_phone">
+						<p><a href="tel:8(812)924-91-19">+7 (812) 924-91-19</a>
+						</p>
+						<a href="#" class="call-me_btn">Перезвоните мне</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- modal call-me -->
+			<div class="call-modal">
+				<div class="call-modal_content">
+					<div class="call-modal_block">
+						<div class="call-modal_header">
+							<a href="#" class="close-menu"></a>
+							<span class="call-modal_title">Запрос звонка с сайта</span>
+						</div>
+						<form id="call-form" class="form call-form" action="">
+							<input id="call-form_name" type="text" class="call-form_input" placeholder="Как к вам обращаться?">
+							<input id="call-form_phone" type="number" class="call-form_input" placeholder="Телефон: +7(___)___-__-__">
+							<input id="call-form_time" type="number" class="call-form_input" placeholder="Во сколько перезвонить (МСК) __-__">
+							<button id="call-form_submit" class="btn call-modal_btn" type="submit">Запросить звонок</button>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<!-- clock -->
+				<div class="about-page_about-clock">
+					<span class="underline"></span>
+					<div class="about-page_about-clock__photo">
+						<img src="img/about-clock.jpg" alt="" />
+					</div>
+					<!-- text -->
+					<div class="about-page_about-clock__text clearfix">
+						<div class="about-page_about-clock__text-item1">
+							<p class="about-clock">
+								Как правило, брендовые часы покупают люди с тонким вкусом, которые знают цену себе и вещам, а не гонятся за показным блеском и роскошью. Это особая категория людей, современные аристократы, настоящая элита общества, стать частью которой могут лишь единицы.
+							</p>
+							<p class="about-clock">
+								Наш интернет-магазин «spbluxwatches.ru» объединяет тех, кто способен по достоинству оценить истинную красоту и качество оригинальных часов от брендов с мировым именем и многолетней историей.
+							</p>
+							<p class="about-clock">
+								Если Вас интересует покупка часов, Вы легко сможете подобрать наиболее подходящий вариант в нашем каталоге, который регулярно обновляется и пополняется новыми моделями.
+							</p>
+						</div>
+						<div class="about-page_about-clock__text-item2">
+							<p class="about-clock">
+								Качество товаров тщательно проверяется, поэтому Вы можете быть абсолютно уверены в том, что приобретете оригинальные часы, а не одну из подделок, которыми наполнен Интернет.
+							</p>
+							<p class="about-clock">
+								Если же Вы по какой-то причине решили расстаться со своими часами и хотели бы их продать, то в «spbluxwatches.ru» Вы сможете сделать это на максимально выгодных для Вас условиях. Каждый наш клиент уникален, поэтому шаблонных решений в этом вопросе быть
+								просто не может.
+							</p>
+							<p class="about-clock">
+								Наши специалисты проведут оценку Ваших часов и определят их стоимость, но последнее слово всегда останется за Вами.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- team -->
+				<div class="team-block">
+					<!-- photos -->
+					<div class="team-block_photo">
+						<!-- title -->
+						<div class="mini-title">
+							<div class="mini-title-block"><span>Команда проекта</span>
+							</div>
+						</div>
+						<!-- item -->
+						<div class="team-block_photo-item">
+							<div class="team-img">
+								<img src="img/team-photo1.jpg" alt="">
+							</div>
+							<p class="team-names">Андрей</p>
+							<p class="team-position">Эксперт по ремонту и обслуживанию часов</p>
+						</div>
+						<!-- item -->
+						<div class="team-block_photo-item">
+							<div class="team-img">
+								<img src="img/team-photo2.jpg" alt="">
+							</div>
+							<p class="team-names">Наталья</p>
+							<p class="team-position">Руководитель направления</p>
+						</div>
+						<!-- item -->
+						<div class="team-block_photo-item">
+							<div class="team-img">
+								<img src="img/team-photo3.jpg" alt="">
+							</div>
+							<p class="team-names">Дмитрий</p>
+							<p class="team-position">Руководитель отдела продаж</p>
+						</div>
+					</div>
+				</div>
+				<!-- bottom -->
+				<div class="about-page_bottom">
+					<p class="about-page_bottom__text">Помните, что подлинную ценность вещей можно оценить только с течением времени, а следить за его течением помогут часы из каталога «spbluxwatches.ru»!</p>
+					<div class="about-page_bottom__btn">
+						<div class="catalog-btn">
+							<a class="catalog" href="#">Перейти в каталог бутика</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</main>
+	<!-- footer -->
+	<footer class="main-footer clearfix">
+		<div class="container">
+
+			<!-- menu -->
+			<button id="footer-button" class="footer-button" type="button">меню</button>
+			<div class="social-block_mobile">
+				<a class="footer-icon footer-social_vk" href="#">vk</a>
+				<a class="footer-icon footer-social_fb" href="#">fb</a>
+				<a class="footer-icon footer-social_google" href="#">google</a>
+				<a class="footer-icon footer-social_inst" href="#">inst</a>
+			</div>
+
+			<!-- top -->
+			<div class="main-footer__top clearfix">
+				<!-- header -->
+				<div class="footer-menu">
+					<a href="#" class="close-menu">закрыть</a>
+					<span class="footer-menu_title">Меню</span>
+				</div>
+
+				<div class="main-footer__top_left">
+					<ul class="main_col-list">
+						<li class="title"><a class="title-list" href="catalog-clock.html">Часы</a><span class="title-link"></span>
+							<ul class="col-list">
+								<div class="footer-menu_inner">
+									<a href="#" class="close-inner-menu"><i class="icon icon-footer-arrow"></i></a>
+									<li class="col-list_header">Часы</li>
+								</div>
+								<li><a href=#>A. Lange & Sohne</a>
+								</li>
+								<li><a href=#>Harry Winston</a>
+								</li>
+								<li><a href=#>Patek Philippe</a>
+								</li>
+
+								<li><a href=#>Audemars Piguet</a>
+								</li>
+								<li><a href=#>HD3 SLYDE</a>
+								</li>
+								<li><a href=#>Pierre Kunz</a>
+								</li>
+
+								<li><a href=#>Bell & Ross</a>
+								</li>
+								<li><a href=#>Gerald Genta</a>
+								</li>
+								<li><a href=#>Perrelet</a>
+								</li>
+
+								<li><a href=#>BlancPain</a>
+								</li>
+								<li><a href=#>Girard Perregaux</a>
+								</li>
+								<li><a href=#>Rado</a>
+								</li>
+
+								<li><a href=#>Bovet</a>
+								</li>
+								<li><a href=#>Graham</a>
+								</li>
+								<li><a href=#>Raymond Weil</a>
+								</li>
+
+								<li><a href=#>Breguet</a>
+								</li>
+								<li><a href=#>HYT</a>
+								</li>
+								<li><a href=#>Richard Mille</a>
+								</li>
+
+								<li><a href=#>Breitling</a>
+								</li>
+								<li><a href=#>Hublot</a>
+								</li>
+								<li><a href=#>Roger Dubuis</a>
+								</li>
+
+								<li><a href=#>Daniel Roth</a>
+								</li>
+								<li><a href=#>IWC</a>
+								</li>
+								<li><a href=#>Rolex</a>
+								</li>
+
+								<li><a href=#>Cartier</a>
+								</li>
+								<li><a href=#>Jacob & Co</a>
+								</li>
+								<li><a href=#>Romain Jerome</a>
+								</li>
+
+								<li><a href=#>Chanel</a>
+								</li>
+								<li><a href=#>Jaeger-LeCoultre</a>
+								</li>
+								<li><a href=#>Sevenfriday</a>
+								</li>
+
+								<li><a href=#>Chopard</a>
+								</li>
+								<li><a href=#>Jaquet Droz</a>
+								</li>
+								<li><a href=#>Ulysse Nardin</a>
+								</li>
+
+								<li><a href=#>Corum</a>
+								</li>
+								<li><a href=#>Jorg Hysek</a>
+								</li>
+								<li><a href=#>Urwerk</a>
+								</li>
+
+								<li><a href=#>Cvstos</a>
+								</li>
+								<li><a href=#>Longines</a>
+								</li>
+								<li><a href=#>Vacheron Constantin</a>
+								</li>
+
+								<li><a href=#>De Grisogono</a>
+								</li>
+								<li><a href=#>Maurice Lacroix</a>
+								</li>
+								<li><a href=#>Van Cleef & Arpels</a>
+								</li>
+
+								<li><a href=#>DeWitt</a>
+								</li>
+								<li><a href=#>Omega</a>
+								</li>
+								<li><a href=#>Zenith</a>
+								</li>
+
+								<li><a href=#>Franсk Muller</a>
+								</li>
+								<li><a href=#>Parmigiani</a>
+								</li>
+								<li></li>
+
+								<li><a href=#>Franc Vila</a>
+								</li>
+								<li><a href=#>Panerai</a>
+								</li>
+								<li><a href=#>Другие бренды</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+
+				</div>
+				<div class="main-footer__top_center clearfix">
+					<ul class="main_col-list">
+						<li class="title"><a class="title-list" href=#>Ювелирные украшения</a><span class="title-link"></span>
+							<ul class="col-list">
+								<div class="footer-menu_inner">
+									<a href="#" class="close-inner-menu"><i class="icon icon-footer-arrow"></i></a>
+									<li class="col-list_header">Ювелирные украшения</li>
+								</div>
+								<li><a href=#>Boucheron</a>
+								</li>
+								<li><a href=#>Bvlgari</a>
+								</li>
+								<li><a href=#>Carrerra y Carrera</a>
+								</li>
+								<li><a href=#>Cartier</a>
+								</li>
+								<li><a href=#>Graff</a>
+								</li>
+								<li><a href=#>Chopard</a>
+								</li>
+								<li><a href=#>Mousson Atelier</a>
+								</li>
+								<li><a href=#>Tiffany</a>
+								</li>
+								<li><a href=#>Pasquale Bruni</a>
+								</li>
+								<li></li>
+								<li><a href=#>Другие бренды</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="main_col-list">
+						<li class="title"><a class="title-list" href=#>Аксессуары</a><span class="title-link"></span>
+							<ul class="col-list">
+								<div class="footer-menu_inner">
+									<a href="#" class="close-inner-menu"><i class="icon icon-footer-arrow"></i></a>
+									<li class="col-list_header">Аксессуары</li>
+								</div>
+								<li><a href=#>Ювелирные шкатулки</a>
+								</li>
+								<li><a href=#>Часовые шкатулки</a>
+								</li>
+							</ul>
+						</li>
+						<li class="title"><a class="title-list" href=#>Новинки в каталоге</a>
+						</li>
+						<li class="title"><a class="title-list" href=#>Специальные предложения</a>
+						</li>
+						<li class="title"><a class="title-list" href=#>Топы продаж</a>
+						</li>
+						<li class="title"><a class="title-list" href=#>Ранее в продаже</a>
+						</li>
+					</ul>
+				</div>
+				<div class="main-footer__top_right clearfix">
+					<div class="main-footer__top_right-top">
+						<ul class="main_col-list clearfix">
+							<li class="title"><a class="title-list" href=#>Часовая мастерская</a><span class="title-link"></span>
+								<ul class="col-list">
+									<div class="footer-menu_inner">
+										<a href="#" class="close-inner-menu"><i class="icon icon-footer-arrow"></i></a>
+										<li class="col-list_header">Часовая мастерская</li>
+									</div>
+									<li><a href=#>Комиссия</a>
+									</li>
+									<li><a href=#>Ремонт часов</a>
+									</li>
+									<li><a href=#>Репассаж</a>
+									</li>
+									<li><a href=#>Выкуп часов</a>
+									</li>
+									<li><a href=#>Диагностика часов</a>
+									</li>
+									<li><a href=#>Часы под заказ</a>
+									</li>
+									<li><a href=#>Тюнинг часов</a>
+									</li>
+								</ul>
+							</li>
+							<li class="title"><a class="title-list" href=#>О компании</a><span class="title-link"></span>
+								<ul class="col-list">
+									<div class="footer-menu_inner">
+										<a href="#" class="close-inner-menu"><i class="icon icon-footer-arrow"></i></a>
+										<li class="col-list_header">О компании</li>
+									</div>
+									<li><a href=#>О нас</a>
+									</li>
+									<li><a href=#>Новости компании</a>
+									</li>
+									<li><a href=#>Тематические статьи</a>
+									</li>
+									<li><a href=#>Словарь терминов</a>
+									</li>
+									<li><a href=#>Частые вопросы</a>
+									</li>
+									<li><a href=#>Доставка</a>
+									</li>
+									<li><a href=#>Контакты</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="footer_social-block">
+						<div class="main-footer__top_right-middle">
+							<div class="social-block">
+								<a class="footer-icon footer-social_vk" href="#">vk</a>
+								<a class="footer-icon footer-social_fb" href="#">fb</a>
+								<a class="footer-icon footer-social_google" href="#">google</a>
+								<a class="footer-icon footer-social_inst" href="#">inst</a>
+							</div>
+						</div>
+						<div class="main-footer__top_right-bottom">
+							<form id="form-subscribe" class="form form_subscribe form_subscribe_footer">
+								<label for="subscribe_email" class="form-label_subscribe">Подписка на новости компании:</label>
+								<input id="subscribe_email" type="email" class="form-input form-input_subscribe" placeholder="E-mail">
+								<a class="subscribe-btn">Подписаться</a>
+							</form>
+
+							<div class="subscribe-modal">
+								<div class="subscribe-modal_content">
+									<a href="#" class="close-menu">закрыть</a>
+									<div class="subscribe-modal_block">
+										<p class="subscribe-modal_title">
+											Благодарим за подписку на дайджест компании!
+										</p>
+										<p class="subscribe-modal_text">На указанный e-mail отправлено письмо с подтверждением. Если письмо не приходит в течение 5 минут и более, проверьте папку "Спам"</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="search-form-block_footer">
+					<form id="form-search" class="form form_search form_search_footer">
+						<input id="footer_search-site" type="search" class="form-input form-input_search" placeholder="Поиск по сайту">
+						<button type="button" class="btn-search  btn-search_footer resize"> <i class="icon icon-search_footer"></i>
+						</button>
+					</form>
+				</div>
+			</div>
+			<!-- midle -->
+			<div class="main-footer__middle">
+				<div class="demo-container clocks active bounce">
+					<div class="flash-clock Moscow-time">
+						<article class="clock simple">
+							<div class="hours-container">
+								<div class="hours"></div>
+							</div>
+							<div class="minutes-container">
+								<div class="minutes"></div>
+							</div>
+							<div class="seconds-container">
+								<div class="seconds"></div>
+							</div>
+						</article>
+						<div class="flash-clock_item">
+							<p>Москва</p>
+						</div>
+					</div>
+					<div class="flash-clock London-time">
+						<article class="clock simple">
+							<div class="hours-container">
+								<div class="hours"></div>
+							</div>
+							<div class="minutes-container">
+								<div class="minutes"></div>
+							</div>
+							<div class="seconds-container">
+								<div class="seconds"></div>
+							</div>
+						</article>
+						<div class="flash-clock_item">
+							<p>Лондон</p>
+						</div>
+					</div>
+					<div class="flash-clock Rome-time">
+						<article class="clock simple">
+							<div class="hours-container">
+								<div class="hours"></div>
+							</div>
+							<div class="minutes-container">
+								<div class="minutes"></div>
+							</div>
+							<div class="seconds-container">
+								<div class="seconds"></div>
+							</div>
+						</article>
+						<div class="flash-clock_item">
+							<p>Рим</p>
+						</div>
+					</div>
+					<div class="flash-clock San-time">
+						<article class="clock simple">
+							<div class="hours-container">
+								<div class="hours"></div>
+							</div>
+							<div class="minutes-container">
+								<div class="minutes"></div>
+							</div>
+							<div class="seconds-container">
+								<div class="seconds"></div>
+							</div>
+						</article>
+						<div class="flash-clock_item">
+							<p>Сан-Франциско</p>
+						</div>
+					</div>
+				</div>
+				<!-- logo -->
+				<div class="logo_footer">
+					<a href="index.html">
+						<img class="footer-logo" src="img/logo-white.svg" alt="" />
+					</a>
+				</div>
+			</div>
+			<!-- bottom -->
+			<div class="main-footer__bottom">
+				<div class="footer_right-info">
+					<p>Внимание. Информация, представленная на страницах магазина spbluxwatches.ru носит сугубо рекламно-информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 (2) Гражданского кодекса РФ. Точную
+						и окончательную информацию о наличии и стоимости Вы можете получить, связавшись с нами по телефонам +7 (812) 702-77-82, +7 (812) 999-12-88</p>
+					<img class="footer-label" src="img/label.png" alt="" />
+				</div>
+				<div class="main-footer__main-bottom clearfix">
+					<div class="copyright">
+						<p class="copyright-text">© 2013-2016 "Spbluxwatches.ru", Санкт-Петербург</p>
+					</div>
+					<div class="card-name">
+						<img src="img/pay-logo.png" alt="" />
+					</div>
+					<div class="developed">
+						<p class="developed-text">Developed by 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- jq -->
+	<script src='js/jq.min.js'></script>
+	<script src='js/main.min.js'></script>
+	<!-- навиагация по страницам верстки / удалить на продакшене -->
+	<div id="pages-22" class="pages">
+		<div id="toogle-23" class="pages-header">
+			<p>Навигация страниц верстки</p>
+			<span>GP</span>
+			<i id="close-24" class="icon-pages"></i>
+		</div>
+		<ul>
+			<li><a href="./">Главная</a>
+			</li>
+			<li><a href="about.html">О компании</a>
+			</li>
+			<li><a href="contacts.html">Контакты</a>
+			</li>
+			<li><a href="accessories-inner.html">Карточка товара</a>
+			</li>
+			<li><a href="articles.html">Статьи</a>
+			</li>
+			<li><a href="article-inner.html">Страница статьи</a>
+			</li>
+			<li><a href="clock.html">Список товаров - Часы</a>
+			</li>
+			<li><a href="clock-inner.html">Карточка товара - Часы</a>
+			</li>
+			<li><a href="delivery.html">Доставка</a>
+			</li>
+			<li><a href="dictionary.html">Словарь терминов</a>
+			</li>
+			<li><a href="faq.html">FAQ</a>
+			</li>
+			<li><a href="news.html">Новости</a>
+			</li>
+			<li><a href="services.html">Услуги</a>
+			</li>
+			<li><a href="services-inner.html">Страница услуги</a>
+			</li>
+			<li><a href="jewelry.html">Ювелирные изделия</a>
+			</li>
+			<li><a href="jewelry-inner.html">Карточка товара - Ювелирные изделия </a>
+			</li>
+			<li><a href="ui.html">ui</a>
+			</li>
+		</ul>
+	</div>
+	<script>
+		$('#toogle-23').on('click', function(event) {
+			event.preventDefault();
+			/* Act on the event */
+			$('#pages-22').toggleClass('open');
+		});
+	</script>
+</body>
+
+</html>

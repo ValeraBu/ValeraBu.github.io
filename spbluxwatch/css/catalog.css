@@ -1,0 +1,524 @@
+.catalog-page__main .left-sidebar {
+  float: left;
+  width: 20%;
+}
+
+.catalog-page__main .catalog-content {
+  float: right;
+  width: 75%;
+  position: relative;
+}
+
+.catalog-page__main .catalog-content .products-catalog .product-card {
+  width: 30%;
+  padding: 1.5%;
+  vertical-align: top;
+  border-bottom: 1px dotted rgba(0, 0, 0, .7);
+  margin: -.36em;
+  margin-top: 20px;
+}
+
+.left-sidebar .ui-selectmenu-button {
+  width: 117px;
+  border: 1px solid #e1e1e1;
+  background-color: #fff;
+  margin-left: 36px;
+}
+
+.left-sidebar .ui-selectmenu-button:focus,
+.left-sidebar .ui-selectmenu-button:active {
+  outline: none;
+}
+
+.left-sidebar .ui-selectmenu-text {
+  font-family: "Museo Cyrl";
+  font-weight: 500;
+  color: #383838;
+  font-size: 16px;
+}
+
+.ui-menu-item-wrapper {
+  position: relative;
+  font-family: "Museo Cyrl";
+  font-weight: 500;
+  color: #383838;
+  font-size: 16px;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+  background: #a39178;
+  border: none;
+  font-family: "Museo Cyrl";
+  font-weight: 500;
+  color: #383838;
+  font-size: 16px;
+}
+
+.ui-selectmenu-menu {
+  font-family: "Museo Cyrl";
+  font-weight: 500;
+  color: #383838;
+  font-size: 16px;
+}
+
+.ui-selectmenu-icon {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 14px;
+  right: 12px;
+  width: 14px;
+  height: 8px;
+  background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2214%22%20height%3D%228%22%20viewBox%3D%220%200%2014%208%22%3E%3Cfilter%20filterUnits%3D%22objectBoundingBox%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22100%22%20height%3D%22100%22%20id%3D%22a%22%3E%3CfeFlood%20flood-color%3D%22%23919191%22%20result%3D%22coFloodOut1%22%2F%3E%3CfeComposite%20in%3D%22coFloodOut1%22%20in2%3D%22SourceAlpha%22%20operator%3D%22in%22%20result%3D%22coOverlay1%22%2F%3E%3CfeBlend%20in%3D%22coOverlay1%22%20in2%3D%22SourceGraphic%22%20result%3D%22colorOverlay1%22%2F%3E%3C%2Ffilter%3E%3Cpath%20d%3D%22M13.82.98L7.43%207.84c-.12.12-.28.17-.44.16a.563.563%200%200%201-.44-.16L.16.98a.592.592%200%200%201%200-.82c.23-.22.6-.22.83%200l6%206.45%206-6.45c.23-.22.6-.22.83%200%20.23.23.23.59%200%20.82z%22%20fill%3D%22%23FFF%22%20filter%3D%22url(%23a)%22%2F%3E%3C%2Fsvg%3E") center center no-repeat;
+  background-size: 100%;
+}
+
+#select-number_item-button .ui-selectmenu-icon {
+  width: 21px;
+  height: 12px;
+  top: 4px;
+}
+
+#select-price_item-button .ui-selectmenu-icon {
+  width: 21px;
+  height: 12px;
+  top: 4px;
+}
+
+#select-number_item-menu {
+  width: 40px !important;
+  background-color: #a39178;
+  right: -17px;
+  top: 10px;
+  position: relative;
+}
+
+#select-number_item-menu .ui-menu-item-wrapper {
+  color: #fff;
+  font-size: 14px;
+}
+
+#select-number_item-menu::after {
+  content: "";
+  position: absolute;
+  left: -35px;
+  bottom: 6px;
+  border: 18px solid transparent;
+  border-right: 18px solid #a39178;
+}
+
+#select-number_item-button {
+  border: none;
+  background: #fff;
+  width: 60px;
+  padding: 0;
+  position: relative;
+}
+
+#select-number_item-button .ui-selectmenu-text {
+  color: #4e4132;
+  font-size: 14px;
+}
+
+#select-number_item-button:focus,
+#select-number_item-button:active {
+  outline: none;
+}
+
+.ui-selectmenu-button-open .ui-selectmenu-icon {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.catalog-form__item {
+  background-color: #f1f1f1;
+  padding: 20px 15px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.catalog-form__item .checkbox-label {
+  line-height: 40px;
+  color: #333;
+  font-size: 14px;
+  font-family: "Museo Cyrl";
+  font-weight: 500;
+}
+
+.catalog-form__item .catalog-form_title {
+  color: #5a5a5a;
+  font-family: "Museo Cyrl";
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.catalog-form__item .catalog-form-input {
+  border: 1px solid #e1e1e1;
+  padding-left: 10px;
+  height: 30px;
+  width: 203px;
+}
+
+.catalog-form__item .catalog-btn-search {
+  background-color: transparent;
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.catalog-form__item .catalog-form_label {
+  display: inline-block;
+  color: #919191;
+  font-size: 14px;
+  font-family: "Museo Cyrl";
+  font-weight: 500;
+}
+
+.catalog-form__item .catalog-form_select {
+  width: 151px;
+  height: 30px;
+  border: 1px solid #e1e1e1;
+  padding-left: 10px;
+  margin-left: 36px;
+}
+
+.catalog-form__item .catalog-form_select option {
+  font-family: "Museo Cyrl";
+  font-weight: 500;
+  color: #383838;
+  font-size: 16px;
+}
+
+.catalog-form__item .text-price {
+  width: 195px;
+  height: 26px;
+  border: 1px solid #e1e1e1;
+  padding-left: 10px;
+  margin-left: 15px;
+}
+
+.catalog-form__item:first-child {
+  margin-top: 0;
+}
+
+.radio-input {
+  opacity: 0;
+  width: 0;
+  position: absolute;
+  cursor: pointer;
+}
+
+.radio-label {
+  position: relative;
+  padding-left: 45px;
+  line-height: 40px;
+  color: #333;
+  font-size: 14px;
+  font-family: "Museo Cyrl";
+  font-weight: 500;
+}
+
+.radio-label:before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  left: 0;
+  bottom: -7px;
+  cursor: pointer;
+}
+
+.radio-input:checked + label:before {
+  background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20fill%3D%22%23A29077%22%20d%3D%22M0%200h16v16H0z%22%2F%3E%3C%2Fsvg%3E") center no-repeat #fff;
+  background-size: 20px;
+}
+
+.catalog-form__item_brands .catalog-form__item-row {
+  padding: 3px 0px 3px 25px;
+}
+
+.catalog-form__item_brands .brand-link {
+  font-family: "Museo Cyrl";
+  font-weight: 700;
+  color: #333;
+  font-size: 14px;
+  padding: 2px 15px;
+}
+
+.catalog-form__item_brands .brand-link.active {
+  font-family: "Museo Cyrl";
+  font-weight: 500;
+  color: #fff;
+  background-color: #a39178;
+}
+
+.catalog-form__item_brands .brand-link:hover {
+  color: #fff;
+  background-color: #a39178;
+}
+
+.top-filter {
+  background-color: #a39178;
+  margin-bottom: 50px;
+  position: relative;
+  height: auto;
+  min-height: 50px;
+}
+
+.top-filter__item {
+  display: inline-block;
+  padding-left: 15px;
+  margin: 14px 0;
+  max-width: 800px;
+}
+
+.top-filter__item li {
+  display: inline;
+  white-space: nowrap;
+}
+
+.select-filter {
+  display: inline;
+  color: #fff;
+  font-size: 11px;
+  margin-right: 12px;
+}
+
+.close-all {
+  font-size: 14px;
+  margin-left: 115px;
+  position: absolute;
+  right: 15px;
+  top: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.close-all span {
+  border-bottom: 1px dashed #fff;
+}
+
+.top-filter::after {
+  content: "";
+  position: absolute;
+  left: -35px;
+  top: 6px;
+  border: 18px solid transparent;
+  border-right: 18px solid #a39178;
+}
+
+.icon-close {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.select-filter.active {
+  display: none;
+}
+
+.top-filter__item.active {
+  display: none;
+}
+
+.catalog-page_about {
+  color: #666;
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 90px;
+}
+
+.main-title {
+  position: relative;
+}
+
+.mini-filter {
+  position: absolute;
+  right: 0;
+  top: -52px;
+  background-color: #fff;
+  padding-left: 15px;
+}
+
+.mini-filter .select-number {
+  display: inline-block;
+}
+
+.mini-filter .select-number .select-number-title {
+  text-decoration: none;
+  color: #4e4132;
+  font-size: 14px;
+  display: inline-block;
+  margin: 0;
+  border-bottom: 1px dashed #a39178;
+}
+
+.mini-filter .select-price {
+  display: inline-block;
+  position: relative;
+}
+
+.mini-filter .select-price .select-price-title {
+  text-decoration: none;
+  color: #4e4132;
+  font-size: 14px;
+  display: inline-block;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin-right: 40px;
+  border-bottom: 1px dashed #a39178;
+  position: relative;
+}
+
+.mini-filter .select-price .select-price-title::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: -30px;
+  width: 21px;
+  height: 12px;
+  background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2214%22%20height%3D%228%22%20viewBox%3D%220%200%2014%208%22%3E%3Cfilter%20filterUnits%3D%22objectBoundingBox%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22100%22%20height%3D%22100%22%20id%3D%22a%22%3E%3CfeFlood%20flood-color%3D%22%23919191%22%20result%3D%22coFloodOut1%22%2F%3E%3CfeComposite%20in%3D%22coFloodOut1%22%20in2%3D%22SourceAlpha%22%20operator%3D%22in%22%20result%3D%22coOverlay1%22%2F%3E%3CfeBlend%20in%3D%22coOverlay1%22%20in2%3D%22SourceGraphic%22%20result%3D%22colorOverlay1%22%2F%3E%3C%2Ffilter%3E%3Cpath%20d%3D%22M13.82.98L7.43%207.84c-.12.12-.28.17-.44.16a.563.563%200%200%201-.44-.16L.16.98a.592.592%200%200%201%200-.82c.23-.22.6-.22.83%200l6%206.45%206-6.45c.23-.22.6-.22.83%200%20.23.23.23.59%200%20.82z%22%20fill%3D%22%23FFF%22%20filter%3D%22url(%23a)%22%2F%3E%3C%2Fsvg%3E") center center no-repeat;
+  background-size: 100%;
+}
+
+.mini-filter .select-price .select-price-title.active::after {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.mini-filter .select-price .select-price-title:active,
+.mini-filter .select-price .select-price-title:focus {
+  outline: none;
+}
+
+.mini-filter .select-price .select-price_list {
+  position: absolute;
+  z-index: 999;
+  width: 220px;
+  list-style: none;
+  right: 0;
+  background-color: #a39178;
+  padding: 10px 15px;
+  margin: 0;
+  top: 35px;
+  display: none;
+}
+
+.mini-filter .select-price .select-price_list li {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-family: "Museo Cyrl";
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+}
+
+.mini-filter .select-price .select-price_list li.active {
+  color: #a39178;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.mini-filter .select-price .select-price_list li:hover {
+  border: 1px solid #fff;
+}
+
+.mini-filter .select-price .select-price_list li:first-child {
+  margin-bottom: 5px;
+}
+
+.mini-filter .select-price .select-price_list.active {
+  display: block;
+}
+
+.mini-filter .select-price .icon-price-arrows {
+  margin-left: 10px;
+}
+
+/* ==========================================================================
+   recommendation-title 
+   ===========================================================================*/
+
+.recommendations-block {
+  position: relative;
+}
+
+.recommendation-title .button {
+  border: none;
+  background: transparent;
+}
+
+.select-recommendation_list {
+  display: none;
+  position: absolute;
+  list-style: none;
+  top: 52px;
+  background-color: #a39178;
+  padding: 5px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  z-index: 99;
+  width: 284px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.select-recommendation_list li {
+  padding: 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.select-recommendation_list li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.select-recommendation_list li:not(:last-child) {
+  border-bottom: 1px solid #b39f84;
+}
+
+.select-recommendation_list li:last-child {
+  border-bottom: 1px solid transparent;
+}
+
+.select-recommendation_list li.active {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid transparent;
+}
+
+.select-recommendation_list li.active a {
+  color: #a39178;
+}
+
+.select-recommendation_list li:hover {
+  border: 1px solid #fff;
+}
+
+.select-recommendation_list.active {
+  display: block;
+}
+
+.icon-arrow.active {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
